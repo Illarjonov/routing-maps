@@ -11,9 +11,10 @@ function App() {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    API.fetchData()
+    API
+      .fetchData()
       .then(response => dispatch(actionSetData(response.data)))
-  }, [])
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className={s.App}>
@@ -24,7 +25,7 @@ function App() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default App;
