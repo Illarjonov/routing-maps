@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.leaflet-routing-container {
+  opacity: 0;
+  color: #000000;
+  display: none;
+}
+
+.ant-table-row {
+  cursor: pointer;
+}
+.ant-table-tbody{
+  min-width: 440px;
+}
+.leaflet-container {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,7 @@
+.table_container {
+    display: flex;
+    background: #282c34;
+    align-items: center;
+    margin-right: 5px;
+    min-width: 440px;
+}
